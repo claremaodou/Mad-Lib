@@ -1,0 +1,43 @@
+# Mad-Lib
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Lib</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather|Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="main">
+        <h1>Mad Lib</h1>
+        <hr>
+        <h2>Mad Lib Instructions</h2>
+        <p>Fill in all of the input boxes, then click the <em>'Mad Lib'</em> button...</p>
+        <ul>
+            <!--List of Inputs-->
+            <li><p>Verb ending in 'ing' : <input id="verb" type="text"></p></li>
+            <li><p>Plural Noun : <input id="pluralnoun" type="text"></p></li>
+            <li><p>Adjective : <input id="adjective" type="text"></p></li>
+            <li><p>Present Tense Verb : <input id="presenttenseverb" type="text"></p></li>
+            <li><p>Noun : <input id="noun" type="text"></p></li>
+        </ul>
+        <!--Mad Lib Button-->
+        <button id="MadLibBtn">Mad Lib</button>
+        <hr>
+        <h2>Mad Lib Results</h2>
+        
+        <!--Mad Lib Results-->
+        <div class="madlibresults"><p>“There are too many <strong><span id="firstblank"> [verb ending in ‘ing’] </span></strong> <strong><span id="secondblank"> [plural noun] </span> </strong>on this <strong><span id="thirdblank"> [adjective] </span> </strong>airplane!”, I screamed.  “Somebody has to  <strong><span id="fourthblank">[verb] </span> </strong> on the <strong><span id="fifthblank">[noun]</span> </strong>  to solve this problem!”</p></div>
+        
+</div>
+
+
+ <!--Load JavaScript--> 
+ <script src="main.js"></script>
+</body>
+
+
+
+
+</html>
