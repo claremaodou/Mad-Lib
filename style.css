@@ -1,0 +1,35 @@
+body{
+    background-color:#66D9FF;
+    margin:0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main { 
+    background-color: white;
+    width: 700px;
+    padding: 10px 150px 50px;
+    margin:auto;
+}
+
+
+h1{ 
+    font-family: 'Notable', sans-serif;
+    color:#66D9FF;
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+button { /*Button Styling */
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color:#66D9FF;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.madlibresults{ /* creates a box around the div class */
+    border:2px solid black;
+    padding: 5px;
+}
